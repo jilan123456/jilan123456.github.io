@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jilan123456.github.io.git/</loc>
+    <loc>https://jilan123456.github.io/</loc>
+    <lastmod>2022-12-12T18:56:57+08:00</lastmod>
+  </url><url>
+    <loc>https://jilan123456.github.io/post/</loc>
+    <lastmod>2022-12-12T18:56:57+08:00</lastmod>
+  </url><url>
+    <loc>https://jilan123456.github.io/post/secondblog/</loc>
+    <lastmod>2022-12-12T18:56:57+08:00</lastmod>
+  </url><url>
+    <loc>https://jilan123456.github.io/post/firstblog/</loc>
     <lastmod>2022-12-11T01:27:02+08:00</lastmod>
   </url><url>
-    <loc>https://jilan123456.github.io.git/post/firstblog/</loc>
-    <lastmod>2022-12-11T01:27:02+08:00</lastmod>
+    <loc>https://jilan123456.github.io/categories/</loc>
   </url><url>
-    <loc>https://jilan123456.github.io.git/post/</loc>
-    <lastmod>2022-12-11T01:27:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jilan123456.github.io.git/categories/</loc>
-  </url><url>
-    <loc>https://jilan123456.github.io.git/tags/</loc>
+    <loc>https://jilan123456.github.io/tags/</loc>
   </url>
 </urlset>

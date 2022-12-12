@@ -2,25 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on ExampleSite</title>
-    <link>https://jilan123456.github.io.git/post/</link>
+    <link>https://jilan123456.github.io/post/</link>
     <description>Recent content in Posts on ExampleSite</description>
     <image>
-      <url>https://jilan123456.github.io.git/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://jilan123456.github.io.git/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://jilan123456.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://jilan123456.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 11 Dec 2022 01:27:02 +0800</lastBuildDate><atom:link href="https://jilan123456.github.io.git/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Dec 2022 18:56:57 +0800</lastBuildDate><atom:link href="https://jilan123456.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SecondBlog</title>
+      <link>https://jilan123456.github.io/post/secondblog/</link>
+      <pubDate>Mon, 12 Dec 2022 18:56:57 +0800</pubDate>
+      
+      <guid>https://jilan123456.github.io/post/secondblog/</guid>
+      <description>学习笔记 1.文件系统命令1 pwd :显示当前工作目录的绝对路径 cd :更改工作目录路径 &amp;ldquo;.&amp;ldquo;代表当前所在目录 &amp;ldquo;..&amp;ldquo;代表当前目录位置的上一层目录 &amp;ldquo;~&amp;ldquo;代表家目录 mkdir :创建目录 &amp;ldquo;-p&amp;rdquo; 若路径中的目录不存在，先创建目录 ls :列出目录和文件信息(-lh常用) &amp;ldquo;-l&amp;rdquo; 以详细信息的形式展示出当前目录的文件 &amp;ldquo;-h&amp;rdquo; 与-l 一起，以易于阅读的格式输出文件大小 rmdir :删除空目录 touch :创建空文件、更改文件时间 cp :复制文件或目录 mv :文件和目录改名、移动文件和目录 rm :删除文件或者目录。一般使用rm -rf删除目录(-rf常用) &amp;ldquo;-f&amp;rdquo; 强制删除 &amp;ldquo;-r&amp;rdquo; 递归删除目录 通配符 ? 匹配任意一个字符 匹配任意多个字符(包含0个) [] 相当于或的意思 代表一个范围，比如a-z 2.Vim编辑器 安装vim sudo yum install vim Vim基本操作 i 插入 Esc 退出插入 :w 保存 :q 退出 :q! 强制退出 </description>
+    </item>
+    
     <item>
       <title>FirstBlog</title>
-      <link>https://jilan123456.github.io.git/post/firstblog/</link>
+      <link>https://jilan123456.github.io/post/firstblog/</link>
       <pubDate>Sun, 11 Dec 2022 01:27:02 +0800</pubDate>
       
-      <guid>https://jilan123456.github.io.git/post/firstblog/</guid>
-      <description>Linux期末作业 1.在Linux下，安装git，使用git管理大作业相关的代码、配置文件等，要求有能反映大作业过程的git提交记录 ####安装git yum install git #####//root用户才有权限
-####获取ssh密钥 ssh-keygen -t rsa -C &amp;ldquo;1710970776@qq.com&amp;rdquo; #####//使用自己的邮箱
-####查看git版本 git version
-####进入.ssh查看公钥 cd /root/.ssh/ ls vi id_rsa.pub #####//查看公钥
-####将公钥添加到Github中，使得Linux与Github相联系</description>
+      <guid>https://jilan123456.github.io/post/firstblog/</guid>
+      <description>Linux期末作业 第一题： 在Linux下，安装git，使用git管理大作业相关的代码、配置文件等，要求有能反映大作业过程的git提交记录 安装git yum install git //root用户才有权限 获取ssh密钥 ssh-keygen -t rsa -C &amp;quot;xxxxxxxxxx@qq.com&amp;quot; //使用自己的邮箱 查看git版本 git version 进入.ssh查看公钥 cd /root/.ssh/ ls vi id_rsa.pub //查看公钥 将公钥添加到Github中，使得Linux与Github相联系 在Github中打开Settings，点击SSH and GPG keys，再点New SSH key，把上面查看到的公钥粘贴进去，最后点击Add SSH key Linux与Github的连接配置成功 ssh git@github.com //在.ssh中配置 //出现Hi jilan123456！You&#39;ve successfully authenticated,则连接成功 新建目录并绑定git用户 mkdir test cd test/ git config --global user.name &amp;quot;xxxx&amp;quot; //自己的用户名 git config --global user.email &amp;quot;xxxxxxxxxx@qq.com&amp;quot; //自己的邮箱 把test目录变成Git管理的仓库 git init 将准备好的文件复制到git副本目录 git add test1.py git status 提交到本地git仓库 git commit -m &amp;quot;tests&amp;quot; 在Github上新建仓库，得到的SSH协议关联远程仓库 git remote add origin git@github.</description>
     </item>
     
   </channel>

@@ -16,7 +16,11 @@
       <pubDate>Sun, 11 Dec 2022 01:27:02 +0800</pubDate>
       
       <guid>https://jilan123456.github.io.git/post/firstblog/</guid>
-      <description>图片 </description>
+      <description>Linux期末作业 1.在Linux下，安装git，使用git管理大作业相关的代码、配置文件等，要求有能反映大作业过程的git提交记录 ####安装git yum install git #####//root用户才有权限
+####获取ssh密钥 ssh-keygen -t rsa -C &amp;ldquo;1710970776@qq.com&amp;rdquo; #####//使用自己的邮箱
+####查看git版本 git version
+####进入.ssh查看公钥 cd /root/.ssh/ ls vi id_rsa.pub #####//查看公钥
+####将公钥添加到Github中，使得Linux与Github相联系</description>
     </item>
     
   </channel>

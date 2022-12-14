@@ -16,8 +16,7 @@
       <pubDate>Mon, 12 Dec 2022 18:56:57 +0800</pubDate>
       
       <guid>https://jilan123456.github.io/post/secondblog/</guid>
-      <description>学习笔记 1.文件系统命令1 pwd :显示当前工作目录的绝对路径 cd :更改工作目录路径 . 代表当前所在目录 .. 代表当前目录位置的上一层目录 ~ 代表家目录 mkdir :创建目录 mkdir -p xxx //-p:若路径中的目录不存在，先创建目录 ls :列出目录和文件信息(-lh常用) ls -lh xxx //-h与-l一起，以易于阅读的格式输出文件大小 rmdir :删除空目录 touch :创建空文件、更改文件时间 cp :复制文件或目录 cp jilan.txt ./ mv :文件和目录改名、移动文件和目录 mv jilan.txt jil.txt rm :删除文件或者目录。一般使用rm -rf删除目录(-rf常用) rm -rf jilan.txt //-f:强制删除、-r:递归删除目录
-通配符 ls ?.txt //?:匹配任意一个字符 ls *.txt //*:匹配任意多个字符(包含0个) ls [abc]* //[]:相当于或的意思 ls [a-c]* //-:代表一个范围，比如a-z 2.Vim编辑器 安装vim sudo yum install vim Vim命令模式基本操作 i 插入 Esc 退出插入 :w 保存 :q 退出 :q!</description>
+      <description>学习笔记 1.文件系统命令1 pwd :显示当前工作目录的绝对路径 cd :更改工作目录路径 . 代表当前所在目录 .. 代表当前目录位置的上一层目录 ~ 代表家目录 mkdir :创建目录 mkdir -p xxx //-p:若路径中的目录不存在，先创建目录 ls :列出目录和文件信息(-lh常用) ls -lh xxx //-h与-l一起，以易于阅读的格式输出文件大小 rmdir :删除空目录 touch :创建空文件、更改文件时间 cp :复制文件或目录 cp jilan.txt ./ mv :文件和目录改名、移动文件和目录 mv jilan.txt jil.txt rm :删除文件或者目录。一般使用rm -rf删除目录(-rf常用) rm -rf jilan.txt //-f:强制删除、-r:递归删除目录 通配符 ls ?.txt //?:匹配任意一个字符 ls *.txt //*:匹配任意多个字符(包含0个) ls [abc]* //[]:相当于或的意思 ls [a-c]* //-:代表一个范围，比如a-z 2.Vim编辑器 安装vim sudo yum install vim Vim命令模式基本操作 i 插入 Esc 退出插入 :w 保存 :q 退出 :q!</description>
     </item>
     
     <item>
